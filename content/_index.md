@@ -3,14 +3,14 @@ title: "ML Ensemble #3. June 2 2018"
 date: 2018-03-12T18:16:16-04:00
 
 mastheadFirst: >
-    ML Ensemble #3. <br/>
-    June 2nd 2018. Toronto
+    ML Ensemble #3 <br/>
+    June 2nd 2018 Toronto
 
 mastheadSecond: "Share insights, techniques, methods, and observations with your technical peers"
 
 introHead: "ML Ensemble concept"
 intro: >
-    A one day meeting for machine learning researchers and
+    A one day invitation-only meeting for machine learning researchers and
     practitioners to learn from each other, sharing not just polished high-level
     demos, but also the gritty realities: technique details, systems used, failed
     approaches, and unanswered questions.
