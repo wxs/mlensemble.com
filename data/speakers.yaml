@@ -1,19 +1,164 @@
 - name: "Yevgeniy Valis"
-  title: "Director of Applied ML"
+  position: "Director of Applied ML"
   org: "Borealis AI"
   image: "/headshots/yevgeniy.jpg"
+  title: "Fascinating talk topic"
+  bio: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris laoreet
+      tempor consectetur. Mauris consectetur dolor nibh, non maximus elit
+      sodales at. Mauris pellentesque ligula vel ex faucibus feugiat. Sed eu
+      ligula fringilla, vehicula risus molestie, fermentum justo. Curabitur vel
+      erat nulla. Aenean maximus placerat libero, et vestibulum ex. Integer
+      bibendum odio tellus, in porta nisi congue ullamcorper. Aenean ornare
+      diam enim, eu vulputate lacus aliquet eu. Nunc elementum, nibh vel
+      pellentesque semper, sapien libero sodales nulla, id convallis dolor
+      justo sit amet felis. Integer cursus id ante non interdum. Quisque velit
+      est, tincidunt id eros vitae, euismod congue nisi. Mauris quis commodo
+      dui, eu pharetra velit. Nullam velit tortor, cursus quis vulputate vel,
+      condimentum in arcu. Sed et luctus nulla, ullamcorper accumsan quam. Sed
+      est mauris, condimentum et metus ut, sagittis rutrum leo. Curabitur
+      scelerisque nisl et est feugiat faucibus.
+  abstract: >
+      Nam semper elit eget dolor gravida suscipit ac eget nunc. Nunc posuere
+      sapien at metus tempor, in suscipit dolor malesuada. Suspendisse eu nulla
+      urna. Phasellus a mi quis ligula sollicitudin varius. Curabitur lorem ex,
+      dictum vitae lacus in, molestie elementum felis. Donec ac sollicitudin
+      diam, at ullamcorper dolor. Integer eget dapibus eros. Fusce urna est,
+      malesuada ac viverra quis, aliquam et urna. Cras id cursus massa. In
+      vitae velit est. Phasellus ac suscipit enim, sit amet laoreet mauris.
 - name: "David Duvenaud"
   org: "University of Toronto"
   image: "/headshots/duvenaud.jpg"
+  title: "Another great talk"
+  bio: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris laoreet
+      tempor consectetur. Mauris consectetur dolor nibh, non maximus elit
+      sodales at. Mauris pellentesque ligula vel ex faucibus feugiat. Sed eu
+      ligula fringilla, vehicula risus molestie, fermentum justo. Curabitur vel
+      erat nulla. Aenean maximus placerat libero, et vestibulum ex. Integer
+      bibendum odio tellus, in porta nisi congue ullamcorper. Aenean ornare
+      diam enim, eu vulputate lacus aliquet eu. Nunc elementum, nibh vel
+      pellentesque semper, sapien libero sodales nulla, id convallis dolor
+      justo sit amet felis. Integer cursus id ante non interdum. Quisque velit
+      est, tincidunt id eros vitae, euismod congue nisi. Mauris quis commodo
+      dui, eu pharetra velit. Nullam velit tortor, cursus quis vulputate vel,
+      condimentum in arcu. Sed et luctus nulla, ullamcorper accumsan quam. Sed
+      est mauris, condimentum et metus ut, sagittis rutrum leo. Curabitur
+      scelerisque nisl et est feugiat faucibus.
+  abstract: >
+      Nam semper elit eget dolor gravida suscipit ac eget nunc. Nunc posuere
+      sapien at metus tempor, in suscipit dolor malesuada. Suspendisse eu nulla
+      urna. Phasellus a mi quis ligula sollicitudin varius. Curabitur lorem ex,
+      dictum vitae lacus in, molestie elementum felis. Donec ac sollicitudin
+      diam, at ullamcorper dolor. Integer eget dapibus eros. Fusce urna est,
+      malesuada ac viverra quis, aliquam et urna. Cras id cursus massa. In
+      vitae velit est. Phasellus ac suscipit enim, sit amet laoreet mauris.
+
 - name: "Marzyeh Ghassemi"
   org: "University of Toronto"
   image: "/headshots/marzyeh.jpg"
+  title: "Keeping the great talks going"
+  bio: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris laoreet
+      tempor consectetur. Mauris consectetur dolor nibh, non maximus elit
+      sodales at. Mauris pellentesque ligula vel ex faucibus feugiat. Sed eu
+      ligula fringilla, vehicula risus molestie, fermentum justo. Curabitur vel
+      erat nulla. Aenean maximus placerat libero, et vestibulum ex. Integer
+      bibendum odio tellus, in porta nisi congue ullamcorper. Aenean ornare
+      diam enim, eu vulputate lacus aliquet eu. Nunc elementum, nibh vel
+      pellentesque semper, sapien libero sodales nulla, id convallis dolor
+      justo sit amet felis. Integer cursus id ante non interdum. Quisque velit
+      est, tincidunt id eros vitae, euismod congue nisi. Mauris quis commodo
+      dui, eu pharetra velit. Nullam velit tortor, cursus quis vulputate vel,
+      condimentum in arcu. Sed et luctus nulla, ullamcorper accumsan quam. Sed
+      est mauris, condimentum et metus ut, sagittis rutrum leo. Curabitur
+      scelerisque nisl et est feugiat faucibus.
+  abstract: >
+      Nam semper elit eget dolor gravida suscipit ac eget nunc. Nunc posuere
+      sapien at metus tempor, in suscipit dolor malesuada. Suspendisse eu nulla
+      urna. Phasellus a mi quis ligula sollicitudin varius. Curabitur lorem ex,
+      dictum vitae lacus in, molestie elementum felis. Donec ac sollicitudin
+      diam, at ullamcorper dolor. Integer eget dapibus eros. Fusce urna est,
+      malesuada ac viverra quis, aliquam et urna. Cras id cursus massa. In
+      vitae velit est. Phasellus ac suscipit enim, sit amet laoreet mauris.
 - name: "Jamie Kiros"
   org: "Google Brain"
   image: "/headshots/jamie.jpg"
+  title: "Glad to be talking"
+  bio: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris laoreet
+      tempor consectetur. Mauris consectetur dolor nibh, non maximus elit
+      sodales at. Mauris pellentesque ligula vel ex faucibus feugiat. Sed eu
+      ligula fringilla, vehicula risus molestie, fermentum justo. Curabitur vel
+      erat nulla. Aenean maximus placerat libero, et vestibulum ex. Integer
+      bibendum odio tellus, in porta nisi congue ullamcorper. Aenean ornare
+      diam enim, eu vulputate lacus aliquet eu. Nunc elementum, nibh vel
+      pellentesque semper, sapien libero sodales nulla, id convallis dolor
+      justo sit amet felis. Integer cursus id ante non interdum. Quisque velit
+      est, tincidunt id eros vitae, euismod congue nisi. Mauris quis commodo
+      dui, eu pharetra velit. Nullam velit tortor, cursus quis vulputate vel,
+      condimentum in arcu. Sed et luctus nulla, ullamcorper accumsan quam. Sed
+      est mauris, condimentum et metus ut, sagittis rutrum leo. Curabitur
+      scelerisque nisl et est feugiat faucibus.
+  abstract: >
+      Nam semper elit eget dolor gravida suscipit ac eget nunc. Nunc posuere
+      sapien at metus tempor, in suscipit dolor malesuada. Suspendisse eu nulla
+      urna. Phasellus a mi quis ligula sollicitudin varius. Curabitur lorem ex,
+      dictum vitae lacus in, molestie elementum felis. Donec ac sollicitudin
+      diam, at ullamcorper dolor. Integer eget dapibus eros. Fusce urna est,
+      malesuada ac viverra quis, aliquam et urna. Cras id cursus massa. In
+      vitae velit est. Phasellus ac suscipit enim, sit amet laoreet mauris.
 - name: "Martin Snelgrove"
   org: "Untether AI"
   image: "/headshots/snelgrove.jpg"
+  title: "Hardware is cool too"
+  bio: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris laoreet
+      tempor consectetur. Mauris consectetur dolor nibh, non maximus elit
+      sodales at. Mauris pellentesque ligula vel ex faucibus feugiat. Sed eu
+      ligula fringilla, vehicula risus molestie, fermentum justo. Curabitur vel
+      erat nulla. Aenean maximus placerat libero, et vestibulum ex. Integer
+      bibendum odio tellus, in porta nisi congue ullamcorper. Aenean ornare
+      diam enim, eu vulputate lacus aliquet eu. Nunc elementum, nibh vel
+      pellentesque semper, sapien libero sodales nulla, id convallis dolor
+      justo sit amet felis. Integer cursus id ante non interdum. Quisque velit
+      est, tincidunt id eros vitae, euismod congue nisi. Mauris quis commodo
+      dui, eu pharetra velit. Nullam velit tortor, cursus quis vulputate vel,
+      condimentum in arcu. Sed et luctus nulla, ullamcorper accumsan quam. Sed
+      est mauris, condimentum et metus ut, sagittis rutrum leo. Curabitur
+      scelerisque nisl et est feugiat faucibus.
+  abstract: >
+      Nam semper elit eget dolor gravida suscipit ac eget nunc. Nunc posuere
+      sapien at metus tempor, in suscipit dolor malesuada. Suspendisse eu nulla
+      urna. Phasellus a mi quis ligula sollicitudin varius. Curabitur lorem ex,
+      dictum vitae lacus in, molestie elementum felis. Donec ac sollicitudin
+      diam, at ullamcorper dolor. Integer eget dapibus eros. Fusce urna est,
+      malesuada ac viverra quis, aliquam et urna. Cras id cursus massa. In
+      vitae velit est. Phasellus ac suscipit enim, sit amet laoreet mauris.
 - name: "Helen Nissenbaum"
   org: "Cornell Tech"
   image: "/headshots/nissenbaum.jpg"
+  title: "Hi! I'm from NY"
+  bio: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris laoreet
+      tempor consectetur. Mauris consectetur dolor nibh, non maximus elit
+      sodales at. Mauris pellentesque ligula vel ex faucibus feugiat. Sed eu
+      ligula fringilla, vehicula risus molestie, fermentum justo. Curabitur vel
+      erat nulla. Aenean maximus placerat libero, et vestibulum ex. Integer
+      bibendum odio tellus, in porta nisi congue ullamcorper. Aenean ornare
+      diam enim, eu vulputate lacus aliquet eu. Nunc elementum, nibh vel
+      pellentesque semper, sapien libero sodales nulla, id convallis dolor
+      justo sit amet felis. Integer cursus id ante non interdum. Quisque velit
+      est, tincidunt id eros vitae, euismod congue nisi. Mauris quis commodo
+      dui, eu pharetra velit. Nullam velit tortor, cursus quis vulputate vel,
+      condimentum in arcu. Sed et luctus nulla, ullamcorper accumsan quam. Sed
+      est mauris, condimentum et metus ut, sagittis rutrum leo. Curabitur
+      scelerisque nisl et est feugiat faucibus.
+  abstract: >
+      Nam semper elit eget dolor gravida suscipit ac eget nunc. Nunc posuere
+      sapien at metus tempor, in suscipit dolor malesuada. Suspendisse eu nulla
+      urna. Phasellus a mi quis ligula sollicitudin varius. Curabitur lorem ex,
+      dictum vitae lacus in, molestie elementum felis. Donec ac sollicitudin
+      diam, at ullamcorper dolor. Integer eget dapibus eros. Fusce urna est,
+      malesuada ac viverra quis, aliquam et urna. Cras id cursus massa. In
+      vitae velit est. Phasellus ac suscipit enim, sit amet laoreet mauris.

@@ -23,7 +23,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
-    <link href="css/mlconf.min.css" rel="stylesheet">
+    <link href="css/mlconf.css" rel="stylesheet">
 
   </head>
 
@@ -92,7 +92,7 @@
         </div>
         <div class="row">
           {{ range .Params.highlights }}
-          <div class="col-lg-4 col-md-6 text-center text-white">
+          <div class="col-lg-4 col-md-4 text-center text-white">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-{{.icon}} mb-3 sr-icons"></i>
               <h3 class="mb-3">{{.heading}}</h3>
@@ -114,11 +114,13 @@
           </div>
         </div>
         <div class="row">
-            {{ range .Site.Data.speakers }}
+            {{ range $index, $speaker := .Site.Data.speakers }}
             <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-              <img src="{{ .image }}" class="headshot img-fluid" style="width:100%" alt="Headshot of {{.name}}" />
-                <h3 class="mb-0">{{ .name }}</h3>
-                <p class="text-muted">{{ .org }}
+                <a href="#" data-mfp-src="#speaker-{{$index}}" class="open-popup-link">
+                  <img src="{{ $speaker.image }}" class="headshot img-fluid" style="width:100%" alt="Headshot of {{.name}}" />
+                  <h3 class="mb-0">{{ .name }}</h3>
+                  <p class="text-muted">{{ $speaker.org }}</p>
+                </a>
             </div>
             {{ end }}
         </div>
@@ -258,6 +260,22 @@
         </div>
       </div>
     </section>
+    {{ range $index, $speaker := .Site.Data.speakers }}
+    <div id="speaker-{{$index}}" class="speaker-popup mfp-hide">
+        <h3>{{$speaker.name}}</h3>
+        <img src="{{$speaker.image}}" alt="{{$speaker.name}} photo" />
+        <h4>{{$speaker.title}}</h4>
+        <div class="abstract">
+            {{$speaker.abstract}}
+        </div>
+        <h4 class="mt-2">Bio</h4>
+        <div class="bio">
+            {{$speaker.bio}}
+        </div>
+    </div>
+    {{ end }}
+
+
 
 
     <!-- Bootstrap core JavaScript -->
@@ -271,6 +289,13 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
+
+    <script>
+    $('.open-popup-link').magnificPopup({
+      type:'inline',
+      midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+    });
+    </script>
 
   </body>
 
