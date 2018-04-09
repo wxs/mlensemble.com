@@ -268,10 +268,12 @@
         <div class="abstract">
             {{$speaker.abstract}}
         </div>
-        <h4 class="mt-2">Bio</h4>
+	{{ if (ne $speaker.bio "") }}
+	<h4 class="mt-2">Bio</h4>
         <div class="bio">
             {{$speaker.bio}}
         </div>
+	{{ end }}
     </div>
     {{ end }}
 
