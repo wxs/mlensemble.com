@@ -6,7 +6,7 @@ mastheadFirst: >
     ML Ensemble #3 <br/>
     June 2nd 2018 Toronto
 
-mastheadSecond: "Share insights, techniques, methods, and observations with your technical peers"
+mastheadSecond: "Share machine learning insights, techniques, methods, and observations with your technical peers"
 
 introHead: "ML Ensemble concept"
 intro: >
