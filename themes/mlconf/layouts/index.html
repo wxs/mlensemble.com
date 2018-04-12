@@ -271,7 +271,7 @@
 	{{ if (ne $speaker.bio "") }}
 	<h4 class="mt-2">Bio</h4>
         <div class="bio">
-            {{$speaker.bio}}
+            {{ replace $speaker.bio "\n" "<br/>" | safeHTML }}
         </div>
 	{{ end }}
     </div>

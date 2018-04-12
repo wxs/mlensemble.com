@@ -2,18 +2,52 @@
   position: "Director of Applied ML"
   org: "Borealis AI"
   image: "/headshots/yevgeniy.jpg"
-  title: "Info to come"
-  bio: ""
+  bio: >
+     Yevgeniy Vahlis is the head of the applied machine learning group at
+     Borealis AI. Prior to joining Borealis AI Yevgeniy lead an applied
+     research team at Georgian Partners, a late stage venture capital fund, and
+     worked at a number of tech companies including Amazon and Nymi. Yevgeniy
+     started his career at AT&T Labs in New York as a research scientist after
+     completing his PhD in computer science at UofT and spending a year at
+     Columbia university as a postdoc."
+  title: ""
   abstract: ""
 - name: "Martin Snelgrove"
   org: "Untether AI"
   image: "/headshots/snelgrove.jpg"
-  title: "Info to come"
-  bio: ""
-  abstract: ""
+  title: "Tensor Stasis: Inference without kilowatts"
+  bio: >
+      Martin is a partly reformed academic: degrees and ECE Prof. at U. of Toronto,
+      sabbatical time at AT&T Bell Labs and then an Industrial Research Chair at
+      Carleton. He followed his lab when it started a chip shop called Philsar, then
+      was CTO for a company that did early LTE-type wireless internet, then a stack
+      of consulting. For the last ten years he’s been CEO of Kapik, which designs
+      strange mixed-signal ICs in Toronto and thereabouts.
+
+      Back in the 90s he was involved in early massively-parallel computing work in
+      “smart memory”, which was the most power-efficient but a highly
+      specialized way to do video: and now it turns out that dot products are
+      very good; burning energy is very bad; and transistors are very small; so
+      the technology is back. He’s CEO of “Untether”, doing a chip with seed
+      round funding and getting ready for A round and turmoil.
+     
+  abstract: >
+    The energy consumed in doing heavy ML inference is a problem: it kills
+    battery life and heats up data centres. Cloud computing fixes nothing,
+    because the energy your device uses to ship the data is worse than what it
+    needs to do the work itself.
+
+    I’ll cover a bit of the physics of where energy goes; but it turns out that
+    almost all of it is wasted pumping data around. The trendy ways to do that
+    are “in-memory” and “near-memory” computing, one of which works at scale.
+
+    From a software point of view, programming near memory is a serious
+    mind-warp. A GPU runs around 1,000 processors in parallel; we run a
+    million. On one chip. On a AAA cell.
+    
 - name: "Julieta Martinez"
   org: "Uber ATG"
-  image: "/headshots/placeholder.png"
+  image: "/headshots/julieta.png"
   title: "Info to come"
   bio: ""
   abstract: ""
@@ -29,9 +63,9 @@
   title: "Info to come"
   bio: ""
   abstract: ""
-- name: "To be announced"
-  org: ""
-  image: "/headshots/placeholder.png"
-  title: "Stay tuned!"
+- name: "Julia Powles"
+  org: "New York University"
+  image: "/headshots/powlesb.jpg"
+  title: "Info to come"
   bio: ""
   abstract: ""
