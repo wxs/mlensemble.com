@@ -49,8 +49,16 @@
   org: "Uber ATG"
   image: "/headshots/julieta.jpg"
   title: "Info to come"
-  bio: ""
+  bio: >
+      Julieta is a computer vision researcher focused on machine learning, deep
+      learning, and large-scale retrieval. She is currently a researcher with
+      Uber ATG Toronto. She enjoys coming up with simple, scalable, and
+      easy-to-understand algorithms that address challenging research problems.
+      Her work has been published in the top three computer vision venues
+      (CVPR/ECCV/ICCV). Julieta obtained her PhD from UBC and has interned at
+      Disney Research and the Max Planck Institute. 
   abstract: ""
+
 - name: "Oren Kraus"
   org: "Phenomic.ai"
   image: "/headshots/oren.jpg"
@@ -90,15 +98,36 @@
     on both mammalian and yeast datasets without requiring any segmentation
     steps.
       
-- name: "Jennifer Lisgtarten"
-  org: "UC Berkeley"
-  image: "/headshots/listgarten.jpg"
-  title: "Info to come"
-  bio: ""
-  abstract: ""
+    #- name: "Jennifer Lisgtarten"
+    #org: "UC Berkeley"
+    #image: "/headshots/listgarten.jpg"
+    #title: "Info to come"
+    #bio: ""
+    #abstract: ""
+
 - name: "Julia Powles"
   org: "New York University"
   image: "/headshots/powlesb.jpg"
   title: "Info to come"
-  bio: ""
+  bio: >
+    Julia Powles is a legal researcher at the University of Cambridge, on two
+    pioneering tech-law projects, on a cross-appointment between the Faculty of
+    Law and the Computer Laboratory.
+
+    Dr Powles has nearly a decade of experience in intellectual property law.
+    Her PhD at the University of Cambridge concerned the inventive concept in
+    patent law. This built on her broader expertise in intellectual property
+    developed in private practice at Minter Ellison Lawyers, during her
+    master’s degree at the University of Oxford, and as speechwriter for the
+    Director General of the World Intellectual Property Organization in Geneva.
+
+    Dr Powles holds undergraduate honours degrees in law from the University of
+    Western Australia and science from the Australian National University. She
+    has worked on scientific research projects in medical genetics,
+    environmental risk, biophysics and plant physiology, and clerked for
+    Justice Garry Downes AM when he was a judge of the Federal Court of
+    Australia and President of the Commonwealth Administrative Appeals
+    Tribunal. The latter position involved work on administrative law,
+    intellectual property and national security.
+      
   abstract: ""
