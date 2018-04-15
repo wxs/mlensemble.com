@@ -1,4 +1,5 @@
 - name: "Yevgeniy Valis"
+  key: "valis"
   position: "Director of Applied ML"
   org: "Borealis AI"
   image: "/headshots/yevgeniy.jpg"
@@ -9,10 +10,11 @@
      worked at a number of tech companies including Amazon and Nymi. Yevgeniy
      started his career at AT&T Labs in New York as a research scientist after
      completing his PhD in computer science at UofT and spending a year at
-     Columbia university as a postdoc."
+     Columbia university as a postdoc.
   title: ""
   abstract: ""
 - name: "Martin Snelgrove"
+  key: "snelgrove"
   org: "Untether AI"
   image: "/headshots/snelgrove.jpg"
   title: "Tensor Stasis: Inference without kilowatts"
@@ -46,9 +48,10 @@
     million. On one chip. On a AAA cell.
     
 - name: "Julieta Martinez"
+  key: "martinez"
   org: "Uber ATG"
   image: "/headshots/julieta.jpg"
-  title: "Info to come"
+  title: ""
   bio: >
       Julieta is a computer vision researcher focused on machine learning, deep
       learning, and large-scale retrieval. She is currently a researcher with
@@ -60,6 +63,7 @@
   abstract: ""
 
 - name: "Oren Kraus"
+  key: "kraus"
   org: "Phenomic.ai"
   image: "/headshots/oren.jpg"
   title: "Classifying and segmenting microscopy images with deep multiple instance learning"
@@ -98,17 +102,18 @@
     on both mammalian and yeast datasets without requiring any segmentation
     steps.
       
-    #- name: "Jennifer Lisgtarten"
-    #org: "UC Berkeley"
-    #image: "/headshots/listgarten.jpg"
-    #title: "Info to come"
-    #bio: ""
-    #abstract: ""
+#- name: "Jennifer Listgarten"
+#org: "UC Berkeley"
+#image: "/headshots/listgarten.jpg"
+#title: "Info to come"
+#bio: ""
+#abstract: ""
 
 - name: "Julia Powles"
+  key: "powles"
   org: "New York University"
   image: "/headshots/powlesb.jpg"
-  title: "Info to come"
+  title: ""
   bio: >
     Julia Powles is a legal researcher at the University of Cambridge, on two
     pioneering tech-law projects, on a cross-appointment between the Faculty of

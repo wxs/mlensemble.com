@@ -1,8 +1,32 @@
+# Yevgeniy
+# Julieta (Deep dive)
+# Oren Kraus
+# Martin Snelgrove
+# Listgarten (TBD)
+# Powles
 - time: "09:00"
   description: "Arrive, Mingle, Coffee"
-- time: "09:30-4:00"
-  description: "Talks, lunch, and snacks. Details to come."
-- time: "4:00"
+- time: "9:30"
+  description: "ML Ensemble Intro"
+- time: "9:45"
+  link: "valis"
+- time: "10:30"
+  link: "martinez"
+- time: "11:15"
+  description: "Coffee Break and Mingle"
+- time: "11:35"
+  link: "kraus"
+- time: "12:20"
+  description: "Lunch and Mingling"
+- time: "1:30"
+  link: "snelgrove"
+- time: "2:15"
+  description: "Coffee Break and Mingle"
+- time: "2:35"
+  description: "Talk details to be announced"
+- time: "3:20"
+  link: "powles"
+- time: "4:05"
   description: "Cocktails"
-- time: "5:00"
-  description: "Drinks at the pub" 
+- time: "5:15"
+  description: "Drinks at a pub"

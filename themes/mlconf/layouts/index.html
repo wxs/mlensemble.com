@@ -145,8 +145,30 @@
         <div class="col-lg-12">
           <table class="table">
             <tbody>
-              {{ range .Site.Data.schedule }}
-              <tr><td>{{ .time }}</td><td>{{ .description }}</td></tr>
+              {{ range $sched := .Site.Data.schedule }}
+                  {{ if $sched.description }}
+                  <tr>
+                      <td>{{ $sched.time }}</td>
+                      <td>{{ $sched.description }} </td>
+                  </tr>
+                  {{ else }}
+                      {{ range $index, $speak := $.Site.Data.speakers }}
+                          {{ if eq $speak.key $sched.link }}
+                               <tr>
+                                  <td>{{ $sched.time }}</td>
+                                  <td>
+                                      <a href="#" data-mfp-src="#speaker-{{$index}}" class="open-popup-link">
+                                          {{ $speak.name }}
+                                          {{ if $speak.title }}
+                                          <p>{{ $speak.title }}
+                                          {{ end }}
+                                      
+                                     </a>
+                                  </td>
+                              </tr>
+                          {{ end }}
+                      {{ end }}
+                  {{ end }}
               {{ end }}
             </tbody>
           </table>
@@ -266,12 +288,12 @@
         <img src="{{$speaker.image}}" alt="{{$speaker.name}} photo" />
         <h4>{{$speaker.title}}</h4>
         <div class="abstract">
-            {{$speaker.abstract}}
+            <p>{{ replace $speaker.abstract "\n" "<p>"| safeHTML }}
         </div>
 	{{ if (ne $speaker.bio "") }}
 	<h4 class="mt-2">Bio</h4>
         <div class="bio">
-            {{ replace $speaker.bio "\n" "<br/>" | safeHTML }}
+            <p>{{ replace $speaker.bio "\n" "<p>" | safeHTML }}
         </div>
 	{{ end }}
     </div>
