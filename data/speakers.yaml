@@ -102,12 +102,26 @@
     on both mammalian and yeast datasets without requiring any segmentation
     steps.
       
-#- name: "Jennifer Listgarten"
-#org: "UC Berkeley"
-#image: "/headshots/listgarten.jpg"
-#title: "Info to come"
-#bio: ""
-#abstract: ""
+- name: "Jennifer Listgarten"
+  key: "listgarten"
+  org: "UC Berkeley"
+  image: "/headshots/listgarten.jpg"
+  title: ""
+  bio: >
+    Since Jan. 2018 Jennifer Listgarten is a Professor in UC Berkeley EECS
+    department and Center for Computational Biology, a member of the steering
+    committee for the Berkeley AI Research (BAIR) Lab, and a Chan Zuckerberg
+    investigator. From 2007 to 2017 she was at Microsoft Research, through
+    Cambridge, MA; Los Angeles and Redmond, WA. Before that she did her PhD in
+    the machine learning group at the University of Toronto, in her wonderful
+    hometown of Toronto. Her undergraduate studies in Physics and Computer
+    Science were at Queen's University. 
+
+    Jennifer’s area of expertise is in machine learning and applied statistics for
+    computational biology. She’s interested in both methods development as well as
+    application of methods to enable new insight into basic biology and medicine. 
+    
+  abstract: ""
 
 - name: "Julia Powles"
   key: "powles"
