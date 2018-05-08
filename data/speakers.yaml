@@ -51,7 +51,7 @@
   key: "martinez"
   org: "Uber ATG"
   image: "/headshots/julieta.jpg"
-  title: ""
+  title: "Scalable algorithms for large-scale retrieval via multi-codebook quantization"
   bio: >
       Julieta is a computer vision researcher focused on machine learning, deep
       learning, and large-scale retrieval. She is currently a researcher with
@@ -60,7 +60,25 @@
       Her work has been published in the top three computer vision venues
       (CVPR/ECCV/ICCV). Julieta obtained her PhD from UBC and has interned at
       Disney Research and the Max Planck Institute. 
-  abstract: ""
+  abstract: >
+    Multi-codebook quantization (MCQ) is a matrix factorization problem analogous
+    to k-means, where the cluster centres arise from a combinatorial combination of
+    entries in smaller codebooks.
+    
+    The applications of MCQ include the compression
+    of deep neural networks for mobile devices, large-scale approximate nearest
+    neighbour search (ANN), and large-scale maximum inner product search.
+
+    Unfortunately, MCQ poses a series of challenging optimization problems that are
+    often too expensive in practice for large-scale datasets.
+    
+    Drawing from the literature on the stochastic optimization of hard
+    combinatorial problems, I'll introduce three improvements to the standard
+    optimization procedure of MCQ that obtain state-of-the-art compression
+    rates on a range of computer vision tasks.  I will also introduce
+    Rayuela.jl, an open-source, GPU-optimized library for large-scale MCQ
+    written in Julia.
+      
 
 - name: "Oren Kraus"
   key: "kraus"
@@ -106,7 +124,7 @@
   key: "listgarten"
   org: "UC Berkeley"
   image: "/headshots/listgarten.jpg"
-  title: ""
+  title: "From genetics to gene editing with machine learning"
   bio: >
     Since Jan. 2018 Jennifer Listgarten is a Professor in UC Berkeley EECS
     department and Center for Computational Biology, a member of the steering
@@ -121,7 +139,27 @@
     computational biology. She’s interested in both methods development as well as
     application of methods to enable new insight into basic biology and medicine. 
     
-  abstract: ""
+  abstract: >
+    Molecular biology, healthcare and medicine have been slowly morphing into
+    large-scale, data driven sciences dependent on machine learning and applied
+    statistics. This talk will highlight two examples of work at this
+    intersection of disciplines: (1) Understanding the genetic underpinnings of
+    disease is important for screening, treatment, drug development, and basic
+    biological insight. Genome-wide associations, wherein individual or sets of
+    genetic markers are systematically scanned for association with disease are
+    one window into disease processes. Naively, these associations can be found
+    by use of a simple statistical test. However, a wide variety of confounders
+    lie hidden in the data, leading to both spurious associations and missed
+    associations if not properly addressed. Listgarten will discuss how these
+    artifacts arise and how we can fix them. (2) Once we uncover such genetic
+    weaknesses, genome editing—which is about deleting or changing parts of the
+    genetic code—will one day let us fix the genome in a bespoke manner. Editing
+    will also help us to understand mechanisms of disease, enable precision
+    medicine and drug development, to name just a few more important
+    applications. In 2012, a revolutionary new molecular biology technique called
+    CRISPR emerged, which dramatically changed the field of gene editing. The
+    presentation will discuss the development of a state-of-the-art predictive
+    model to enable more effective CRISPR gene editing. 
 
 - name: "Julia Powles"
   key: "powles"
