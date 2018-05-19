@@ -16,3 +16,6 @@
 - url: "https://shoeboxapp.com"
   name: "Shoebox"
   logo: "/sponsors/shoebox.png"
+- url: "https://telus.com"
+  name: "Telus"
+  logo: "/sponsors/telus.svg"
