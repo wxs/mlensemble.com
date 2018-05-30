@@ -185,4 +185,13 @@
     Dalhousie University. Ozge is a life-long learner and problem solver. Her
     experience with switching from academia to entrepreneurship has taught her how
     to solve real world problems by applying her deep academic knowledge.
+  title: "Customer Experience Analysis by using NLP and Deep Learning Techniques"
+  abstract: >
+    In this talk, I will be focusing on my team’s experience with working with
+    financial services customers and the challenges and learnings we have in
+    building AI applications with them. I will also talk about a specific
+    project that we are currently working on by using web clickstream data to
+    understand customer experience and satisfaction. We are using NLP and Deep
+    Learning techniques as a solution.
+
   
