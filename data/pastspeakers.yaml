@@ -12,8 +12,19 @@
      started his career at AT&T Labs in New York as a research scientist after
      completing his PhD in computer science at UofT and spending a year at
      Columbia university as a postdoc.
-  title: ""
-  abstract: ""
+  title: "Leveraging privacy preserving machine learning methods to overcome the barriers to data sharing"
+  abstract: >
+     In the B2B space, it is common for customers to restrict the use of their
+     data by the service provider. As a result, existing customers' data cannot
+     be used to bootstrap new customers predictive models, leading to a long
+     data collection period before new customers have enough data in the system
+     to train models that perform adequately well. We set out to overcome this
+     limitation by building privacy preserving machine learning models over the
+     data of the entire customer base while eliminating existing customers
+     concerns about the use of their data to benefit others. In this talk we
+     will discuss a set of methods called Differential Privacy that allowed us
+     to solve the data rights and cold start problem in a privacy preserving
+     way.
 - name: "Martin Snelgrove"
   key: "snelgrove"
   year: "ML Ensemble #3, 2018"
