@@ -1,10 +1,10 @@
 ---
 title: "ML Ensemble #3. June 2 2018"
-date: 2018-03-12T18:16:16-04:00
+date: 2019-03-11T14:16:16-04:00
 
 mastheadFirst: >
-    ML Ensemble #3 <br/>
-    June 2nd 2018 Toronto
+    ML Ensemble #4 is coming<br/>
+    September 2019, Toronto<br/>
 
 mastheadSecond: "Share machine learning insights, techniques, methods, and observations with your technical peers"
 
@@ -27,4 +27,3 @@ highlights:
       body: We are limiting the event size to allow for actual discussion, and leaving plenty of time for it in the schedule.
       icon: comments
 ---
-

@@ -1,50 +1,249 @@
+- name: "Yevgeniy Valis"
+  key: "valis"
+  position: "Director of Applied ML"
+  year: "ML Ensemble #3, 2018"
+  org: "Borealis AI"
+  image: "/headshots/yevgeniy.jpg"
+  bio: >
+     Yevgeniy Vahlis is the head of the applied machine learning group at
+     Borealis AI. Prior to joining Borealis AI Yevgeniy lead an applied
+     research team at Georgian Partners, a late stage venture capital fund, and
+     worked at a number of tech companies including Amazon and Nymi. Yevgeniy
+     started his career at AT&T Labs in New York as a research scientist after
+     completing his PhD in computer science at UofT and spending a year at
+     Columbia university as a postdoc.
+  title: ""
+  abstract: ""
+- name: "Martin Snelgrove"
+  key: "snelgrove"
+  year: "ML Ensemble #3, 2018"
+  org: "Untether AI"
+  image: "/headshots/snelgrove.jpg"
+  title: "Tensor Stasis: Inference without kilowatts"
+  bio: >
+      Martin is a partly reformed academic: degrees and ECE Prof. at U. of Toronto,
+      sabbatical time at AT&T Bell Labs and then an Industrial Research Chair at
+      Carleton. He followed his lab when it started a chip shop called Philsar, then
+      was CTO for a company that did early LTE-type wireless internet, then a stack
+      of consulting. For the last ten years he’s been CEO of Kapik, which designs
+      strange mixed-signal ICs in Toronto and thereabouts.
+
+      Back in the 90s he was involved in early massively-parallel computing work in
+      “smart memory”, which was the most power-efficient but a highly
+      specialized way to do video: and now it turns out that dot products are
+      very good; burning energy is very bad; and transistors are very small; so
+      the technology is back. He’s CEO of “Untether”, doing a chip with seed
+      round funding and getting ready for A round and turmoil.
+
+  abstract: >
+    The energy consumed in doing heavy ML inference is a problem: it kills
+    battery life and heats up data centres. Cloud computing fixes nothing,
+    because the energy your device uses to ship the data is worse than what it
+    needs to do the work itself.
+
+    I’ll cover a bit of the physics of where energy goes; but it turns out that
+    almost all of it is wasted pumping data around. The trendy ways to do that
+    are “in-memory” and “near-memory” computing, one of which works at scale.
+
+    From a software point of view, programming near memory is a serious
+    mind-warp. A GPU runs around 1,000 processors in parallel; we run a
+    million. On one chip. On a AAA cell.
+
+- name: "Julieta Martinez"
+  key: "martinez"
+  org: "Uber ATG"
+  year: "ML Ensemble #3, 2018"
+  image: "/headshots/julieta.jpg"
+  title: "Scalable algorithms for large-scale retrieval via multi-codebook quantization"
+  bio: >
+      Julieta is a computer vision researcher focused on machine learning, deep
+      learning, and large-scale retrieval. She is currently a researcher with
+      Uber ATG Toronto. She enjoys coming up with simple, scalable, and
+      easy-to-understand algorithms that address challenging research problems.
+      Her work has been published in the top three computer vision venues
+      (CVPR/ECCV/ICCV). Julieta obtained her PhD from UBC and has interned at
+      Disney Research and the Max Planck Institute.
+  abstract: >
+    Multi-codebook quantization (MCQ) is a matrix factorization problem analogous
+    to k-means, where the cluster centres arise from a combinatorial combination of
+    entries in smaller codebooks.
+
+    The applications of MCQ include the compression
+    of deep neural networks for mobile devices, large-scale approximate nearest
+    neighbour search (ANN), and large-scale maximum inner product search.
+
+    Unfortunately, MCQ poses a series of challenging optimization problems that are
+    often too expensive in practice for large-scale datasets.
+
+    Drawing from the literature on the stochastic optimization of hard
+    combinatorial problems, I'll introduce three improvements to the standard
+    optimization procedure of MCQ that obtain state-of-the-art compression
+    rates on a range of computer vision tasks.  I will also introduce
+    Rayuela.jl, an open-source, GPU-optimized library for large-scale MCQ
+    written in Julia.
+
+
+- name: "Oren Kraus"
+  key: "kraus"
+  org: "Phenomic.ai"
+  year: "ML Ensemble #3, 2018"
+  image: "/headshots/oren.jpg"
+  title: "Classifying and segmenting microscopy images with deep multiple instance learning"
+  bio: >
+    I'm the co-founder of Phenomic AI; a startup accelerating image-based drug
+    discovery with AI. Previously, I completed my PhD in Brendan Frey's lab. My
+    research focused on applying cutting edge machine learning techniques
+    (specifically deep learning) to high throughput microscopy screens of cell
+    biology. In collaboration with Charlie Boone and Brenda Andrews at the
+    Donnelly Centre for Cellular and Biomolecular Research (CCBR), I generated
+    datasets and trained deep learning models on millions of individual cell
+    objects from genome wide microscopy screens. Previously, I completed my
+    BASc and MASc in mechanical and biomedical engineering at the University of
+    Toronto. I also interned as a machine learning researcher at Apple in
+    California and Borealis AI in Toronto.
+  abstract: >
+    High-content screening (HCS) technologies have enabled large scale imaging
+    experiments for studying cell biology and for drug screening. These systems
+    produce hundreds of thousands of microscopy images per day and their
+    utility depends on automated image analysis. Recently, deep learning
+    approaches that learn feature representations directly from pixel intensity
+    values have dominated object recognition challenges. These tasks typically
+    have a single centered object per image and existing models are not
+    directly applicable to microscopy datasets. Here we develop an approach
+    that combines deep convolutional neural networks (CNNs) with multiple
+    instance learning (MIL) in order to classify and segment microscopy images
+    using only whole image level annotations. We introduce a new neural network
+    architecture that uses MIL to simultaneously classify and segment
+    microscopy images with populations of cells. We base our approach on the
+    similarity between the aggregation function used in MIL and pooling layers
+    used in CNNs. To facilitate aggregating across large numbers of instances
+    in CNN feature maps we present the Noisy-AND pooling function, a new MIL
+    operator that is robust to outliers. Combining CNNs with MIL enables
+    training CNNs using whole microscopy images with image level labels. We
+    show that training end-to-end MIL CNNs outperforms several previous methods
+    on both mammalian and yeast datasets without requiring any segmentation
+    steps.
+
+- name: "Jennifer Listgarten"
+  key: "listgarten"
+  org: "UC Berkeley"
+  year: "ML Ensemble #3, 2018"
+  image: "/headshots/listgarten.jpg"
+  title: "From genetics to gene editing with machine learning"
+  bio: >
+    Since Jan. 2018 Jennifer Listgarten is a Professor in UC Berkeley EECS
+    department and Center for Computational Biology, a member of the steering
+    committee for the Berkeley AI Research (BAIR) Lab, and a Chan Zuckerberg
+    investigator. From 2007 to 2017 she was at Microsoft Research, through
+    Cambridge, MA; Los Angeles and Redmond, WA. Before that she did her PhD in
+    the machine learning group at the University of Toronto, in her wonderful
+    hometown of Toronto. Her undergraduate studies in Physics and Computer
+    Science were at Queen's University.
+
+    Jennifer’s area of expertise is in machine learning and applied statistics for
+    computational biology. She’s interested in both methods development as well as
+    application of methods to enable new insight into basic biology and medicine.
+
+  abstract: >
+    Molecular biology, healthcare and medicine have been slowly morphing into
+    large-scale, data driven sciences dependent on machine learning and applied
+    statistics. This talk will highlight two examples of work at this
+    intersection of disciplines: (1) Understanding the genetic underpinnings of
+    disease is important for screening, treatment, drug development, and basic
+    biological insight. Genome-wide associations, wherein individual or sets of
+    genetic markers are systematically scanned for association with disease are
+    one window into disease processes. Naively, these associations can be found
+    by use of a simple statistical test. However, a wide variety of confounders
+    lie hidden in the data, leading to both spurious associations and missed
+    associations if not properly addressed. Listgarten will discuss how these
+    artifacts arise and how we can fix them. (2) Once we uncover such genetic
+    weaknesses, genome editing—which is about deleting or changing parts of the
+    genetic code—will one day let us fix the genome in a bespoke manner. Editing
+    will also help us to understand mechanisms of disease, enable precision
+    medicine and drug development, to name just a few more important
+    applications. In 2012, a revolutionary new molecular biology technique called
+    CRISPR emerged, which dramatically changed the field of gene editing. The
+    presentation will discuss the development of a state-of-the-art predictive
+    model to enable more effective CRISPR gene editing.
+
+- name: "Ozge Yeloglu"
+  key: "ozge"
+  org: "Microsoft Canada"
+  image: "/headshots/ozge.jpg"
+  year: "ML Ensemble #3, 2018"
+  bio: >
+    Ozge is the Data & AI Lead at Microsoft Canada. She is leading a team of Data
+    Architects and Data Scientists to build intelligent solutions for Microsoft’s
+    top clients in Canada. Her focus was on FinTech and building analytics
+    solutions for some of the biggest Financial Services companies in her previous
+    role as the first Data Scientist at Microsoft Canada. She has been working with
+    the VP Analytics, CTOs, Director of Analytics and Data Scientists directly to
+    help and advise them building advanced analytics solutions to increase their
+    customer satisfaction, revenue, efficiency and optimize their operations to
+    stay ahead of the curve in today’s competitive market.
+
+    Ozge truly believes the words that she first heard from Grace Hopper “ The most
+    dangerous phrase in the language is, ‘We’ve always done it this way.’ ”. She
+    has the entrepreneurial experience with an academic background. Prior to
+    joining Microsoft, she was the co-founder and CEO of topLog, a start up focused
+    on predictive data analysis based on unstructured log data. She started topLog
+    in 2013 while she was working towards her PhD degree in Computer Science at
+    Dalhousie University. Ozge is a life-long learner and problem solver. Her
+    experience with switching from academia to entrepreneurship has taught her how
+    to solve real world problems by applying her deep academic knowledge.
+  title: "Customer Experience Analysis by using NLP and Deep Learning Techniques"
+  abstract: >
+    In this talk, I will be focusing on my team’s experience with working with
+    financial services customers and the challenges and learnings we have in
+    building AI applications with them. I will also talk about a specific
+    project that we are currently working on by using web clickstream data to
+    understand customer experience and satisfaction. We are using NLP and Deep
+    Learning techniques as a solution.
 - name: "Sageev Oore"
   title: "Deep Learning for Musical Language Generation"
   org: "Dalhousie / Vector"
-  year: "2018"
+  year: "ML Ensemble #2, 2018"
 - name: "Jake Cheng"
   title: "Hubba: Recommendations and Beyond"
   org: "Hubba"
-  year: "2018"
+  year: "ML Ensemble #2, 2018"
 - name: "Renjie Liao"
   title: "Deep Learning on Graphs: Models and Applications"
   org: "Uber ATG"
-  year: "2018"
+  year: "ML Ensemble #2, 2018"
 - name: "Angela Schoellig"
   title: "Machine Learning for Safe, High-Performance Control of Mobile Robots"
   org: "University of Toronto"
-  year: "2018"
+  year: "ML Ensemble #2, 2018"
 - name: "Kalu Kalu"
   title: "Insights from Building and Applying Behavioural Image Prediction Models"
   org: "Shoebox"
-  year: "2018"
+  year: "ML Ensemble #2, 2018"
 - name: "Kathryn Hume"
   title: "Ethical Algorithms: Bias and Explainability in Machine Learning"
   org: "Integrate AI"
-  year: "2018"
+  year: "ML Ensemble #2, 2018"
 - name: "Renat Gataullin"
   title: "Learning to Grasp"
   org: "Kindred"
-  year: "2017"
+  year: "ML Ensemble #1, 2017"
 - name: "Solmaz Shahalizadeh"
   title: "Detecting Order Fraud on More Than 400k Stores: Scaling Machine Learning at Shopify"
   org: "Shopify"
-  year: "2017"
+  year: "ML Ensemble #1, 2017"
 - name: "Afsaneh Fazly"
-  title: "Consumer Opinion Analysis: Lessons Learned" 
+  title: "Consumer Opinion Analysis: Lessons Learned"
   org: "Thomson Reuters"
-  year: "2017"
+  year: "ML Ensemble #1, 2017"
 - name: "Anna Goldenberg"
   title: "Building ML Models When the Data is Scarce: The Case of Complex Human Diseases"
   org: "Sick Kids"
-  year: "2017"
+  year: "ML Ensemble #1, 2017"
 - name: "Xavier Snelgrove"
   title: "Subjective Objective Functions: High-Resolution Neural Image Creation"
   org: "Whirlscape"
-  year: "2017"
+  year: "ML Ensemble #1, 2017"
 - name: "Jimmy Ba"
   title: "Progress and Challenges in Optimizing Neural Networks"
   org: "University of Toronto / Vector"
-  year: "2017"
-
-  
+  year: "ML Ensemble #1, 2017"
