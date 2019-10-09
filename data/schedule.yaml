@@ -5,8 +5,12 @@
 # Listgarten (TBD)
 # Powles
 - time: "6:30"
-  description: "Arrive, Mingle, Drinks"
+  description: "Arrival"
 - time: "7:00"
-  description: "Dinner and Discussion Starts"
-- time: "8:30"
-  description: "Drinks"
+  description: "Event introduction: the why, what and how"
+- time: "7:15"
+  description: "Participant introductions"
+- time: "7:30"
+  description: "Event start (delicious food will be provided)"
+- time: "9:30"
+  description: "Wrap up and drinks"
