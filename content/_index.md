@@ -34,16 +34,26 @@ introBody: >
      - How can we work with other groups tackling these questions?
      - Is there a danger of techno-solutionism diverting resources from better places?
 
+    ## Reading
+
+    So that we have some shared experience to level-set the group, we would like every participant to at least have read the recent [Tackling Climate Change with Machine Learning](https://arxiv.org/abs/1906.05433) paper, with many prominent AI researchers as co-authors.
+
+    For the keen, we further suggest reading:
+
+     - Bret Victor’s excellent [What can a technologist do about climate change?](http://worrydream.com/ClimateChange/).
+     - The recently viral, significantly more pessimistic [Deep Adaptation](https://www.lifeworth.com/deepadaptation.pdf) paper, arguing that the case for significant social collapse is under-represented as there are major structural incentives to discourage such thought in the public arena. The paper has since led to global Deep Adaptation communities across disciplines working to understand how we might build society in the remnants of the one we are losing
+     - [Project Drawdown](https://www.drawdown.org/) is less CS and ML specific, but provides many concrete suggestions of what we might do to mitigate, and is globally very influential, with global communities including [one in Toronto](https://drawdowntoronto.ca/)
+
 
 
 highlights:
-    - heading: Academics & Industry
-      body: Learn about research frontiers from academia; learn about applied realities from industry
+    - heading:
+      body:
       icon: lightbulb-o
-    - heading: Technically In-Depth
-      body: This is not a marketing meeting. Discussion will not shy away from necessary mathematical and technical details.
-      icon: flask
-    - heading: Conversational
-      body: We are limiting the event size to allow for actual discussion, and leaving plenty of time for it in the schedule.
+    - heading:
+      body:
+      icon: globe
+    - heading:
+      body:
       icon: comments
 ---
