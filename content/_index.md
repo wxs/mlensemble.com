@@ -1,11 +1,11 @@
 ---
-title: "ML Ensemble #3. June 2 2018"
+title: "ML Ensemble #4. Coming Soon."
 date: 2019-03-11T14:16:16-04:00
 
 mastheadFirst: >
     ML Ensemble #4:<br/>
     Climate Crisis<br/>
-    October 21 2019, Toronto<br/>
+    Coming Soon, Toronto<br/>
 
 mastheadSecond: "Share machine learning insights, techniques, methods, and observations with your technical peers"
 
